@@ -1,0 +1,24 @@
+.markdown-card{
+    margin-bottom: 1.2rem;
+}
+
+.markdown-header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.markdown-header-container>h2{
+    cursor: pointer;
+}
+
+.markdown-header-container>button{
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width:372.5px) {
+    .markdown-header-container{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
